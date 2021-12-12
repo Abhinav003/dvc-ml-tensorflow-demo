@@ -11,8 +11,9 @@ artifacts:
     CALLBACKS_DIR: callbacks
 
 source_download_paths:
-    - ../DataSets/outside_data
+    - ../DataSets/outside_data/dog
+    - ../DataSets/outside_data/cat
 
-local_data_path:
+local_data_dirs:
     - data/dog
     - data/cat
