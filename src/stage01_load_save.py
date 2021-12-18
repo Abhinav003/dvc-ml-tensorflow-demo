@@ -5,11 +5,11 @@ import os
 import shutil
 from tqdm import tqdm
 
-def copy_file():
+def copy_file(source_download_dir, local_data_dir):
     list_of_files = os.listdir(source_download_dir)
     N = len(list_of_files)
 
-    for file in tqdm(list_of_files, total=N, desc=f'Copying file from {source_download_dir} to {local_download_dir}', colour="green"):
+    for file in tqdm(list_of_files, total=N, desc=f'Copying file from {source_download_dir} to {local_data_dir}', colour="green"):
         src = os.path.join(source_download_dir, file)
         dest = os.path.join(local_data_dir, file)
 
