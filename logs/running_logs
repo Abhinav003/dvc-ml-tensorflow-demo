@@ -1,0 +1,10 @@
+[2021-12-19 08:32:11,000: INFO: stage01_load_save]: stage one started
+[2021-12-19 08:32:11,007: INFO: all_utils]: yaml file config/config.yaml loaded successfully
+[2021-12-19 08:32:11,013: INFO: all_utils]: dir is created at data/dog
+[2021-12-19 08:32:12,168: INFO: all_utils]: dir is created at data/cat
+[2021-12-19 08:32:12,979: INFO: stage01_load_save]: stage one completed. All the data is stored.
+[2021-12-19 08:33:18,933: INFO: stage01_load_save]: >>>>>stage one started
+[2021-12-19 08:33:18,933: INFO: all_utils]: yaml file config/config.yaml loaded successfully
+[2021-12-19 08:33:18,943: INFO: all_utils]: dir is created at data/dog
+[2021-12-19 08:33:19,206: INFO: all_utils]: dir is created at data/cat
+[2021-12-19 08:33:19,360: INFO: stage01_load_save]: stage one completed. All the data is stored.>>>>>>
